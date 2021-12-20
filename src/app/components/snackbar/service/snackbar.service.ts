@@ -15,6 +15,7 @@ export class SnackbarService {
     console.log(text);
     this.snackBar.openFromComponent(component, {
       duration: 1500,
+      data: text,
       horizontalPosition: 'end',
       verticalPosition: 'top',
       panelClass: ['mat-toolbar', 'mat-accent']
