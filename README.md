@@ -17,6 +17,6 @@ Altere:
 enviroment.ts
 export const environment = {
   production: false,
-  urlSse: 'http://localhost:6330/emitter'
+  urlSse: 'http://localhost:6330'
 };
 ```

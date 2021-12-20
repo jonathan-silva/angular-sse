@@ -13,7 +13,7 @@ export class SseService {
    * @returns {EventSource}
    */
   getEventSource(): EventSource {
-    const url = environment.urlSse;
+    const url = `${environment.urlSse}/emitter`;
     return new EventSource(url);
   }
 }
